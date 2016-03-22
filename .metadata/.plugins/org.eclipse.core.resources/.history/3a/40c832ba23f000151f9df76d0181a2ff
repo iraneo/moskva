@@ -65,7 +65,7 @@ public class myconsmoskva {
 				try {
 		   while ( (s = br.readLine ()) != null ) {
 			  parts = s.split(" ");
-			  Socket socket = null;
+			  Socket socket;
 			switch (parts[0]) {
 	           
 			  case "ping": ping(socket);  
@@ -74,7 +74,7 @@ public class myconsmoskva {
   	            break;
 			  
 			  
-			
+			  case "ping":  System.out.printf("Your command is ping%n");
 	        
 	        }
 		   }
