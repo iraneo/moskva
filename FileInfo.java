@@ -13,7 +13,7 @@ import javax.xml.bind.annotation.XmlRootElement;
 
 @XmlRootElement
 @XmlAccessorType(XmlAccessType.FIELD)
-public class myconsmoskva {
+public class FileInfo {
 	private String sender;
 	private String filename;
 	private String content;
