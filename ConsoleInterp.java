@@ -1,4 +1,4 @@
-package cons;
+package consol;
 
 import java.io.BufferedReader;
 import java.io.File;
@@ -14,7 +14,7 @@ import javax.ws.rs.core.Response.Status;
 
 import org.glassfish.jersey.client.authentication.HttpAuthenticationFeature;
 
-public class ConsoleInterp {
+public class myconsmoskva {
 	static String senderLogin;
 
 	static String[] partsout(String[] array, int index) {
