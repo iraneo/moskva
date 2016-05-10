@@ -1,4 +1,4 @@
-package cons;
+package consol;
 
 import java.io.File;
 import java.io.IOException;
@@ -13,7 +13,7 @@ import javax.xml.bind.annotation.XmlRootElement;
 
 @XmlRootElement
 @XmlAccessorType(XmlAccessType.FIELD)
-public class FileInfo {
+public class myconsmoskva {
 	private String sender;
 	private String filename;
 	private String content;
