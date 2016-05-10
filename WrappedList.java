@@ -1,4 +1,4 @@
-package cons;
+package consol;
 
 import java.util.List;
 
