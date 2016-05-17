@@ -136,7 +136,7 @@ public class myconsmoskva {
 				if (printMessage != null)
 						System.out.println("Message from" + printMessage[0] + ":" + printMessage[1]);
 				if (receivedFile != null){
-				Path path = Paths.get("D:\\Documents\\Desktop", receivedFile[1].toString());
+				Path path = Paths.get("D:\\moskvatk", receivedFile[1].toString());
 				Path content = Files.write(path, (byte[]) receivedFile[2], StandardOpenOption.CREATE);
 				System.out.println("Incoming File:" + receivedFile[2] + "from" + receivedFile[0]);
 				}
